@@ -5,7 +5,9 @@ theme: just-the-docs
 url: https://blog.novastark.com
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Main site: https://blog.novastark.com
+
+aux_links_new_tab: true
 
 search_enabled: true
 
@@ -15,3 +17,6 @@ search:
   preview_words_before: 5
   tokenizer_separator: /[\s/]+/
   rel_url: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
