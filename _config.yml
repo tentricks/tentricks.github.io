@@ -56,8 +56,8 @@ nav_sort: case_insensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: UETools repo
-    url: https://github.com/tentricks/UETools
+  - title: UEToolbox repo
+    url: https://github.com/tentricks/UEToolbox
 
 # Footer content
 # appears at the bottom of every page's main content
