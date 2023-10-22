@@ -46,4 +46,8 @@ As a first step, I need to setup an EC2 instance.
 ### Milestone 4 - Setup git lfs endpoint
 
 
+---
 
+* My attempts to follow the steps in [Derma's blog](https://blog.dermah.com/2020/05/26/how-to-be-stingy-git-lfs-on-your-own-s3-bucket/) has led to little progress. I have been able to sort of setup node-git-lfs in my ec2 instance but the server isnt accepting the files I'm pushing. It might be because I havent really configured my s3 buckets, or setup IAM in aws - I tried to see how it can be done and it seems a whole can of worms that I dont want to deal with right now.
+
+So for now, I'm back to the drawing board with another potential solution - self hosted gitlab. I know gitlab supports LFS, but as with all live services, it would probably have file throughput limits in its free version. I can, however, try setting up a self-hosted instance on the ec2 machine. Maybe I can keep using github for the main repo and replace the lfs endpoint with the self hosted gitlab one?
