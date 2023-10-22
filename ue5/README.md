@@ -10,3 +10,7 @@ permalink: /ue5
 #### Automated tests
 
 {% include youtube.html id="wIYeO4QbA-U" %}
+
+#### Procedural animations
+
+{% include youtube.html id="vKiqs_h1WXM" %}
