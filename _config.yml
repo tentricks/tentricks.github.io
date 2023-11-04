@@ -91,3 +91,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+mermaid:
+  version: "10.6.0"
